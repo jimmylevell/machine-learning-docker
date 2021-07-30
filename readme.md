@@ -6,6 +6,8 @@ Provide a docker image with all necessary tools installed to perform machine and
 - Tensorflow
 - Jupyter
 - sklearn
+- pandas
+- Seaborn
 
 ## Port configuration
 Listens to 8888
@@ -13,7 +15,7 @@ Listens to 8888
 ## To start the container
 ``
 docker pull ghcr.io/jimmylevell/machine-learning:latest
-docker run -d --restart always --name machine-learning-juypter \
-          -v /srv/nginx/nginx_default.conf:/etc/nginx/conf.d/default.conf \
+docker run -d --restart always --name machine-learning-juypter^ 
+          -v C:\Users\jimmy\OneDrive\Dokumente\jupyter-notebooks:/tf/notebooks^
           -p 8888:8888 ghcr.io/jimmylevell/machine-learning:latest
 ``
