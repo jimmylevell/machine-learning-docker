@@ -1,4 +1,4 @@
-# Machine and Deep Learning Docker Image  
+# Machine and Deep Learning Docker Image   
 [![Publish machine learning docker images](https://github.com/jimmylevell/machine-learning-docker/actions/workflows/action.yml/badge.svg)](https://github.com/jimmylevell/machine-learning-docker/actions/workflows/action.yml)  
 
 ## Goal
