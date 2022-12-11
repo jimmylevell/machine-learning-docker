@@ -1,7 +1,7 @@
 ###############################################################################################
 # jupyter - BASE
 ###############################################################################################
-FROM tensorflow/tensorflow:latest-jupyter as jupyter-base
+FROM tensorflow/tensorflow:2.11.0-jupyter as jupyter-base
 
 WORKDIR /var/www
 
