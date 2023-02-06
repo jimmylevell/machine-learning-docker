@@ -34,7 +34,7 @@ jobs:
           password: ${{ secrets.REGISTRY_TOKEN }}
       -
         name: Build and push nginx docker
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v4
         with:
           push: true
           target: jupyter-deploy
