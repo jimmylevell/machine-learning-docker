@@ -5,7 +5,7 @@ FROM tensorflow/tensorflow:2.11.0-jupyter as jupyter-base
 
 WORKDIR /var/www
 
-RUN apt-get -o Acquire::Check-Valid-Until=false -o Acquire::Check-Date=false update
+RUN apt-get update
 RUN apt-get upgrade -y
 RUN apt-get install vim -y
 RUN apt-get install net-tools -y
