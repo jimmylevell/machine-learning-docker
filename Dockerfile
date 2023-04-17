@@ -17,7 +17,7 @@ RUN apt-get install dos2unix -y
 FROM jupyter-base as jupyter-deploy
 
 RUN pip install --upgrade pip
-RUN pip install levell-jupyternotebook-base
+RUN pip install scikit-learn
 RUN pip install pandas
 RUN pip install seaborn
 
