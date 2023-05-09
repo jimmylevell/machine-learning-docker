@@ -34,4 +34,4 @@ jobs:
           push: true
           target: jupyter-deploy
           tags: |
-            ghcr.io/jimmylevell/machine-learning-docker/notebook-juypter:latest
+            ghcr.io/jimmylevell/machine-learning-docker/notebook_juypter:latest
