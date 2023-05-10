@@ -10,10 +10,8 @@ Provide a docker image with all necessary tools installed to perform machine and
 
 ## To start the container
 ```
-docker pull ghcr.io/jimmylevell/machine-learning:latest
-docker run -d --restart always --name machine-learning-juypter 
-          -v C:\Users\jimmy\OneDrive\Dokumente\jupyter-notebooks:/tf/notebooks
-          -p 8888:8888 ghcr.io/jimmylevell/machine-learning:latest
+docker pull ghcr.io/jimmylevell/machine-learning-docker/notebook-juypter:latest
+docker run -d --restart always --name machine-learning-juypter -v C:\Data\jupyter-notebooks:/var/www -p 8888:8888 ghcr.io/jimmylevell/machine-learning-docker/notebook-juypter:latest
 ```
 
 # Docker image details 
