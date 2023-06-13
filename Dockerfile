@@ -1,7 +1,7 @@
 ###############################################################################################
 # jupyter - BASE
 ###############################################################################################
-FROM jupyter/tensorflow-notebook:python-3.11.3 as jupyter-base
+FROM jupyter/tensorflow-notebook:python-3.11.4 as jupyter-base
 
 WORKDIR /var/www
 
